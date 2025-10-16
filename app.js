@@ -14,7 +14,7 @@ btnCalcular.addEventListener('click',
             resultado.textContent = `El area es: ${area}`;
         }else{
             resultado.className = 'mensaje-error';
-            resultado.textContent = 'Ingresa un valor mayor a 0';
+            resultado.textContent = 'Ingresa un valor mayor a 0 (e no es un valor valido)';
         }
 
 
